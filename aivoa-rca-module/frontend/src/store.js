@@ -1,0 +1,4 @@
+import { configureStore, createSlice } from '@reduxjs/toolkit';
+const initialState={investigation:null,saved:[],loading:false,error:'',toast:'',activeTab:'overview',selectedId:null};
+const slice=createSlice({name:'rca',initialState,reducers:{setInvestigation:(s,a)=>{s.investigation=a.payload;s.selectedId=a.payload?.id??null},patchInvestigation:(s,a)=>{if(s.investigation)s.investigation={...s.investigation,...a.payload}},setSaved:(s,a)=>{s.saved=a.payload},setLoading:(s,a)=>{s.loading=a.payload},setError:(s,a)=>{s.error=a.payload},setToast:(s,a)=>{s.toast=a.payload},setTab:(s,a)=>{s.activeTab=a.payload},setSelectedId:(s,a)=>{s.selectedId=a.payload}}});
+export const {setInvestigation,patchInvestigation,setSaved,setLoading,setError,setToast,setTab,setSelectedId}=slice.actions; export const store=configureStore({reducer:{rca:slice.reducer}});

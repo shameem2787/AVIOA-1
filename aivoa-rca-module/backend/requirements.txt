@@ -1,0 +1,10 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.6
+SQLAlchemy==2.0.38
+psycopg[binary]==3.2.5
+pypdf==5.3.1
+langgraph==0.2.74
+langchain-core==0.3.40
+langchain-groq==0.2.4

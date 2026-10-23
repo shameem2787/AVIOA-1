@@ -1,0 +1,26 @@
+DEVIATION REPORT — API MANUFACTURING (TRAINING SAMPLE ONLY)
+
+Deviation ID: DEV-2026-014
+Product: API-X (fictional training material)
+Batch Number: AX-26041
+Date observed: 2026-10-20
+Process step: Final crystallization / drying
+
+Description:
+During routine in-process review, the recorded product drying temperature trend for batch AX-26041 showed a brief excursion above the target operating range. The batch record contains an entry noting that the trend was observed during the shift handover. The report does not include the exact peak temperature, duration, instrument ID, or the approved operating range.
+
+Expected result:
+Drying temperature should remain within the approved batch-record operating range. The approved range and acceptance criteria must be verified from the current controlled batch record.
+
+Actual result:
+A brief temperature excursion was noted, but the exact values and duration were not included in this initial report. No laboratory result or product quality impact conclusion is supplied.
+
+Immediate action recorded:
+The operator notified the shift supervisor. This sample does not confirm whether the batch was placed on hold or what containment decision was made; verify the contemporaneous record.
+
+Initial evidence available:
+1. Initial deviation narrative only.
+2. Batch manufacturing record, temperature trend export, equipment calibration history, maintenance history, and operator interview have not yet been attached.
+
+Investigation note:
+This fictional example intentionally contains evidence gaps. The investigator must not assume a sensor fault, operator error, or product impact without objective evidence. Review other potentially affected batches and follow the site's approved quality procedures.
